@@ -206,3 +206,7 @@ button.custom-button{
     font-size: 85%;
     opacity: 0.85;
 }
+
+img {
+    image-rendering: pixelated;
+}

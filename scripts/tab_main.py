@@ -78,11 +78,11 @@ MoveDeleteConfig = namedtuple(
 )
 
 CFG_GENERAL_DEFAULT = GeneralConfig(
-    True,
+    False,
     "",
     ".txt",
-    False,
     True,
+    False,
     False,
     "No",
     [],
@@ -117,7 +117,7 @@ CFG_BATCH_EDIT_DEFAULT = BatchEditConfig(
     75,
 )
 CFG_EDIT_SELECTED_DEFAULT = EditSelectedConfig(
-    False, False, False, "", SortBy.ALPHA.value, SortOrder.ASC.value
+    True, False, False, "", SortBy.ALPHA.value, SortOrder.ASC.value
 )
 CFG_MOVE_DELETE_DEFAULT = MoveDeleteConfig("Selected One", [], ".txt", "")
 
